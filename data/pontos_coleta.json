@@ -1,92 +1,98 @@
 {
     "1":{
         "nome": "Eco Ponto - Ponto Verde - Barão Geraldo",
-        "aceita": ["papel", "plástico", "vidro", "metal", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.817260,
         "longitude":-47.100537
     },
     "2":{
         "nome": "Eco Ponto - Ponto Verde - Estação Cultura",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.909534,
         "longitude":-47.067641
     },
     "3":{
         "nome": "Eco Ponto - Ponto Verde - Jardim Pacaembu",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.904483,
         "longitude":-47.105464
     },
     "4":{
         "nome": "Eco Ponto - Ponto Verde - Jardim Eulina",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.891792,
         "longitude":-47.101016
     },
     "5":{
         "nome": "Eco Ponto - Ponto Verde - Jardim Paranapanema",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.915823,
         "longitude":-47.037483
     },
     "6":{
         "nome": "Eco Ponto - Ponto Verde - Parque Itália",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.915330,
         "longitude":-47.071196
     },
     "7":{
         "nome": "Eco Ponto - Ponto Verde - Parque Itajaí",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.961431,
         "longitude":-47.192362
     },
     "8":{
         "nome": "Eco Ponto - Ponto Verde - Parque São Jorge",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.896053,
         "longitude":-47.157392
     },
     "9":{
         "nome": "Eco Ponto - Ponto Verde - Jardim São Gabriel",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.942011,
         "longitude":-47.030471
     },
     "10":{
         "nome": "Eco Ponto - Ponto Verde - Parque Via Norte",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.885643,
         "longitude":-47.128126
     },
     "11":{
         "nome": "Eco Ponto - Ponto Verde - Vida Nova",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.977196,
         "longitude":-47.177901
     },
     "12":{
         "nome": "Eco Ponto - Ponto Verde - Vila Campos Sales",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.948468,
         "longitude":-47.057817
     },
     "13":{
         "nome": "Eco Ponto - Ponto Verde - Vila União",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.935923,
         "longitude":-47.118030
     },
     "14":{
         "nome": "Eco Ponto - Ponto Verde - Carlos Grimaldi",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-22.855658,
         "longitude":-47.067699
     },
     "15":{
         "nome": "Eco Ponto - Ponto Verde - Jardim Marisa",
-        "aceita": ["papel", "plástico", "vidro", "metal", "madeira", "borracha"],
+        "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
 	    "latitude":-23.035566,
         "longitude":-47.110007
+    },
+    "16":{
+        "nome": "Duque reciclagem de óleos vegetais",
+        "aceita": ["oleo"],
+	    "latitude":-22.820863,
+        "longitude":-47.177281
     }
 }
