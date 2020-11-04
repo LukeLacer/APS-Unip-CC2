@@ -1,56 +1,67 @@
 {
-    "metal": {
+    "reciclaveis": [
+        {
+        "material": "metal",
         "resumo":"No Brasil, 98% de todas as latas de alumínio vão parar na indústria vindo da coleta de reciclagem, custando 5% do valor de fabricação de uma lata advinda da extração da natureza. Aço, alumínio, cobre, estanho e zinco são os principais metais recicláveis, porém é importante falar que clipes e grampos, esponjas e palhas de aço, latas de aerossóis, latas de tintas, vernizes e solventes, latas de produtos tóxicos como inseticidas e pesticidas, produtos feitos com metais pesados, inclusive pilhas, baterias e tomadas não sao recicláveis. Pilhas, bateriais e outros produtos com metal pesado devem ainda ser descartados em pontos de coelta especiais.",
         "reciclaveis":["aço", "alumínio", "cobre", "estanho", "zinco"],
         "nao_reciclaveis":["clipes", "grampos", "esponjas", "palha de aço", "latas de aerossóis", "latas de tintas", "vernizes", "solventes", "inseticidas", "pesticidas", "pilhas", "baterias", "tomadas"],
         "tempo_degradacao": "Até 500 anos"
-    },
-    "vidro": {
-        "resumo":"Sendo quase impossível de se degradar (o que torna sua reciclagem essencial), o vidro não perde qualidade ou quantidade ao ser fundido para ser reutilizado, os cacos de vidro diminuírem consideravelmente os custos para fusão do material, já que ele diminui a temperatura para chegar ao ponto de fusão, e por esses motivos é muito valioso para a indústria.",
-        "reciclaveis":["garrafas de bebida em geral", "recipientes como copos, jarras, frascos, vasos", "potes de produtos alimentícios", "frascos de perfume", "cacos e fragmentos de vidros de qualquer um dos produtos acima mencionados"],
-        "nao_reciclaveis":["qualquer tipo de espelho", "vidros de janelas e automotivos", "vidros temperados", "vidros usados em lentes de óculos", "lâmpadas", "louças, cerâmicas, porcelanas e refratários", "cristais", "válvulas, tubos e telas de televisão", "ampolas de medicamentos"],
-        "tempo_degradacao": "Tempo Indefinido"
-    },
-    "papel": {
-        "resumo":"A necessidade de reutilizar o papel é econômica e principalmente para preservar da natureza (pela matéria-prima do papel ser a madeira) juntamente com a diminuição do lixo que vai para aterros e lixões. Empresas usam o papel reciclável para passar uma visão mais “verde” e ecológica de si mesmas, sendo um fator que traz visibilidade e passa a impressão que as empresas desejam. Por outro lado, a cor e qualidade do papel reciclável são discutíveis e muitos não gostam de utilizá-lo devido a isso. Hoje em dia optar por meios digitais e diminuir a utilização do próprio papel já são atos que geram bastante economia e diminuem o lixo das empresas e escritórios consideravelmente.",
-        "reciclaveis":["papéis de escrever: cadernos", "sulfite", "cartolina", "papéis impressos: folhas de jornal", "revistas", "folhetos", "papel timbrado e fotocópias", "papel de seda", "papel de presente", "caixas de papelão", "papel cartão", "papel higiênico sem uso", "papel toalha", "guardanapo", "lenços de papel", "papel kraft", "papel heliográfico", "papel filtrante", "papel de desenho", "embalagens cartonadas", "Tetra Pak"],
-        "nao_reciclaveis":["papel vegetal", "papel celofane", "papel carbono", "papéis impermeáveis", "papéis sanitários usados", "papéis sujos", "papéis revestidos com parafina ou silicone", "papéis fotográficos", "etiquetas", "fitas adesivas", "papéis de extratos bancários"],
-        "tempo_degradacao": "Até 6 meses"
-    },
-    "plastico": {
-        "resumo":"O plástico é um material que nunca pode ser encontrado na natureza e por isso causa grandes problemas para ela, demorando até 500 anos para degradar.A coleta não era o suficiente para ocupar toda a capacidade de reciclagem da indústria. O plástico é provavelmente o que menos traz benefícios financeiros para a indústria, mas certamente é o que traz mais benefícios para a natureza ao ser reciclado. Nesse ponto devemos também lembrar que a transformação do resíduo em algo novo através de processos fabris não é a única forma de reciclar, sendo que transformar um produto que já cumpriu seu papel em algo que ainda seja útil é também uma forma de reciclagem.",
-        "reciclaveis":["embalagens de uso doméstico", "embalagens Pet", "canos PVC", "tubos PVC", "tampas plásticas", "escovas de dente", "sacos", "sacolas", "brinquedos", "copos descartáveis", "utensílios domésticos", "tubos de canetas esferográficas", "filme plástico de PVC", "poliestireno expandido"],
-        "nao_reciclaveis":["plásticos com face adesiva", "cargas das canetas esferográficas", "placas de raio-X", "acrílicos", "embalagens metalizadas", "embalagens à vácuo", "películas como papel filme", "fraldas descartáveis", "absorventes", "cabos de panela", "poliuretano (PU)", "plásticos tipo celofane", "plásticos termorrígidos", "computadores", "telefones", "tomadas elétricas"],
-        "tempo_degradacao": "Até 500 anos"
-    },
-    "isopor": {
-        "resumo":"",
-        "reciclaveis":[""],
-        "nao_reciclaveis":[""],
-        "tempo_degradacao": ""
-    },
-    "madeira": {
-        "resumo":"",
-        "reciclaveis":[""],
-        "nao_reciclaveis":[""],
-        "tempo_degradacao": ""
-    },
-    "borracha": {
-        "resumo":"",
-        "reciclaveis":[""],
-        "nao_reciclaveis":[""],
-        "tempo_degradacao": ""
-    },
-    "oleo": {
-        "resumo":"",
-        "reciclaveis":[""],
-        "nao_reciclaveis":[""],
-        "tempo_degradacao": ""
-    },
-    "eletronico": {
-        "resumo":"",
-        "reciclaveis":[""],
-        "nao_reciclaveis":[""],
-        "tempo_degradacao": ""
-    },
+        },
+        {
+            "material": "vidro",
+            "resumo":"Sendo quase impossível de se degradar (o que torna sua reciclagem essencial), o vidro não perde qualidade ou quantidade ao ser fundido para ser reutilizado, os cacos de vidro diminuírem consideravelmente os custos para fusão do material, já que ele diminui a temperatura para chegar ao ponto de fusão, e por esses motivos é muito valioso para a indústria.",
+            "reciclaveis":["garrafas de bebida em geral", "recipientes como copos, jarras, frascos, vasos", "potes de produtos alimentícios", "frascos de perfume", "cacos e fragmentos de vidros de qualquer um dos produtos acima mencionados"],
+            "nao_reciclaveis":["qualquer tipo de espelho", "vidros de janelas e automotivos", "vidros temperados", "vidros usados em lentes de óculos", "lâmpadas", "louças, cerâmicas, porcelanas e refratários", "cristais", "válvulas, tubos e telas de televisão", "ampolas de medicamentos"],
+            "tempo_degradacao": "Tempo Indefinido"
+        },
+        {
+            "material": "papel",
+            "resumo":"A necessidade de reutilizar o papel é econômica e principalmente para preservar da natureza (pela matéria-prima do papel ser a madeira) juntamente com a diminuição do lixo que vai para aterros e lixões. Empresas usam o papel reciclável para passar uma visão mais “verde” e ecológica de si mesmas, sendo um fator que traz visibilidade e passa a impressão que as empresas desejam. Por outro lado, a cor e qualidade do papel reciclável são discutíveis e muitos não gostam de utilizá-lo devido a isso. Hoje em dia optar por meios digitais e diminuir a utilização do próprio papel já são atos que geram bastante economia e diminuem o lixo das empresas e escritórios consideravelmente.",
+            "reciclaveis":["papéis de escrever: cadernos", "sulfite", "cartolina", "papéis impressos: folhas de jornal", "revistas", "folhetos", "papel timbrado e fotocópias", "papel de seda", "papel de presente", "caixas de papelão", "papel cartão", "papel higiênico sem uso", "papel toalha", "guardanapo", "lenços de papel", "papel kraft", "papel heliográfico", "papel filtrante", "papel de desenho", "embalagens cartonadas", "Tetra Pak"],
+            "nao_reciclaveis":["papel vegetal", "papel celofane", "papel carbono", "papéis impermeáveis", "papéis sanitários usados", "papéis sujos", "papéis revestidos com parafina ou silicone", "papéis fotográficos", "etiquetas", "fitas adesivas", "papéis de extratos bancários"],
+            "tempo_degradacao": "Até 6 meses"
+        },
+        {
+            "material": "plastico",
+            "resumo":"O plástico é um material que nunca pode ser encontrado na natureza e por isso causa grandes problemas para ela, demorando até 500 anos para degradar.A coleta não era o suficiente para ocupar toda a capacidade de reciclagem da indústria. O plástico é provavelmente o que menos traz benefícios financeiros para a indústria, mas certamente é o que traz mais benefícios para a natureza ao ser reciclado. Nesse ponto devemos também lembrar que a transformação do resíduo em algo novo através de processos fabris não é a única forma de reciclar, sendo que transformar um produto que já cumpriu seu papel em algo que ainda seja útil é também uma forma de reciclagem.",
+            "reciclaveis":["embalagens de uso doméstico", "embalagens Pet", "canos PVC", "tubos PVC", "tampas plásticas", "escovas de dente", "sacos", "sacolas", "brinquedos", "copos descartáveis", "utensílios domésticos", "tubos de canetas esferográficas", "filme plástico de PVC", "poliestireno expandido"],
+            "nao_reciclaveis":["plásticos com face adesiva", "cargas das canetas esferográficas", "placas de raio-X", "acrílicos", "embalagens metalizadas", "embalagens à vácuo", "películas como papel filme", "fraldas descartáveis", "absorventes", "cabos de panela", "poliuretano (PU)", "plásticos tipo celofane", "plásticos termorrígidos", "computadores", "telefones", "tomadas elétricas"],
+            "tempo_degradacao": "Até 500 anos"
+        },
+        {
+            "material": "isopor",
+            "resumo":"",
+            "reciclaveis":[""],
+            "nao_reciclaveis":[""],
+            "tempo_degradacao": ""
+        },
+        {
+            "material": "madeira",
+            "resumo":"",
+            "reciclaveis":[""],
+            "nao_reciclaveis":[""],
+            "tempo_degradacao": ""
+        },
+        {
+            "material": "borracha",
+            "resumo":"",
+            "reciclaveis":[""],
+            "nao_reciclaveis":[""],
+            "tempo_degradacao": ""
+        },
+        {
+            "material": "oleo",
+            "resumo":"",
+            "reciclaveis":[""],
+            "nao_reciclaveis":[""],
+            "tempo_degradacao": ""
+        },
+        {
+            "material": "eletronico",
+            "resumo":"",
+            "reciclaveis":[""],
+            "nao_reciclaveis":[""],
+            "tempo_degradacao": ""
+        }
+    ]
 }

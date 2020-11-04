@@ -2,13 +2,14 @@ import moldura
 
 #escreve o titulo do programa na tela
 def titulo():
-    print('| ' + '██     ██   ██ ██████ ██████ ██████' + ' ' * (100 - 36) + '|')
-    print('| ' + '██     ██   ██ ██     ██  ██ ██    ' + ' ' * (100 - 36) + '|')
-    print('| ' + '██     ██   ██ ██     ██  ██ ██    ' + ' ' * (100 - 36) + '|')
-    print('| ' + '██     ██   ██ ██     ██████ ██████' + ' ' * (100 - 36) + '|')
-    print('| ' + '██     ██   ██ ██     ██  ██     ██' + ' ' * (100 - 36) + '|')
-    print('| ' + '██████ ███████ ██████ ██  ██ ██████' + ' ' * (100 - 36) + '|')
+    moldura.default_superior()
+    print('| ' + ' ' * 25 + '███  ███  ███  █  ███  █    ███  █ █  ███  █  ███' + ' ' * 25 + '|')
+    print('| ' + ' ' * 25 + '█ █  █    █    █  █    █    █ █  █ █  █    █  █  ' + ' ' * 25 + '|')
+    print('| ' + ' ' * 25 + '██   ███  █    █  █    █    ███  █ █  ███  █  ███' + ' ' * 25 + '|')
+    print('| ' + ' ' * 25 + '█ █  █    █    █  █    █    █ █  █ █  █    █    █' + ' ' * 25 + '|')
+    print('| ' + ' ' * 25 + '█ █  ███  ███  █  ███  ███  █ █   █   ███  █  ███' + ' ' * 25 + '|')
+    moldura.default_inferior()
 
-moldura.default_superior()
-titulo()
-moldura.default_inferior()
+def texto(texto):
+    vet = texto.split()
+    print(vet)
