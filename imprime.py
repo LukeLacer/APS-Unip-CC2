@@ -10,9 +10,10 @@ def titulo():
     print('│ ' + ' ' * 25 + '█ █  ███  ███  █  ███  ███  █ █   █   ███  █  ███' + ' ' * 25 + '│')
     print('╞' + '═' * 100 + '╡')
 
+#escreve um texto com mais de 98 caracteres quebrando em linhas e retirando espaços extras
 def texto(texto):
 
-    #separa o texto em linhas para não ultrapassar o espaço da interface
+    #separa o texto em linhas para não ultrapassar o limite da interface
     vet = texto.split()
     resultado = []
     linha = ''
