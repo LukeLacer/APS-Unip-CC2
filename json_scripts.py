@@ -33,4 +33,4 @@ def reciclaveis(data, produto):
             print(p)
     '''
 
-reciclaveis(dados_reciclaveis, 'metal')
+reciclaveis(dados_reciclaveis, 'isopor')

@@ -30,38 +30,38 @@
         },
         {
             "material": "isopor",
-            "resumo":"",
-            "reciclaveis":[""],
-            "nao_reciclaveis":[""],
-            "tempo_degradacao": ""
+            "resumo":"O poliestireno expandido é um material que se classifica como plástico, o seu problema está no volume, que incapacita o processo de logística dele para o aterro ou lixão e ao chegar lá ocupa muito espaço desnecessário, atrapalhando o processo do lixo que está ali. 34,5% de todo isopor consumido era reciclado no Brasil em 2012. A reciclagem do isopor é complicada e não tem muito custo-benefício, por isso é algo não muito comum. A reutilização do isopor não é comum, mas pode ser reutilizado. Atualmente quase todos os pontos de coleta aceitam isopor e apesar dos centros de reciclagem do produto serem escassos a coleta ocorre muito bem.",
+            "reciclaveis":["Todo tipo de poliestireno expandido"],
+            "nao_reciclaveis":["Isopor com misturas como metais ou outros elementos em sua composição"],
+            "tempo_degradacao": "Até 500 anos"
         },
         {
             "material": "madeira",
-            "resumo":"",
-            "reciclaveis":[""],
-            "nao_reciclaveis":[""],
-            "tempo_degradacao": ""
+            "resumo":"Já que a madeira é orgânica ela não é algo que polui a natureza. Porém a sua reutilização e reciclagem é muito encorajada já que retirar a madeira da natureza a prejudica muito. Praticamente todos os pontos de coleta aceitam entulho (classificação onde normalmente a madeira está inclusa) porém sua “reciclagem” é seletiva, indo de um reuso bem simples (como decoração ou uso como segurador de porta, etc) mas também pode ser utilizado para fazer móveis, novos produtos e até mesmo ser utilizada como matéria-prima para o papel (lembrando novamente que isso depende da forma e estado da madeira).Sua reutilização e reciclagem é extremamente lucrativa e muitos conseguem reutiza-la e gerar lucro a ponto de viver somente desse ofício. ",
+            "reciclaveis":["Todo tipo de madeira"],
+            "nao_reciclaveis":["Madeiras com pregos e outros objetos de material diferente (é possível retira-los manualmente)"],
+            "tempo_degradacao": "Não se aplica (é organica)"
         },
         {
             "material": "borracha",
-            "resumo":"",
-            "reciclaveis":[""],
-            "nao_reciclaveis":[""],
-            "tempo_degradacao": ""
+            "resumo":"A borracha começou a ser reciclada com a sua criação. A sua natureza é tão maleável, flexível e adaptável que praticamente todos os tipos de borracha podem ser usados para produzir materiais novos dessa mesma borracha, deixando o processo mais rápido, fácil e econômico. A matéria-prima da borracha é cara e por isso também gerou grande interesse na sua reciclagem. O principal produto feito com a borracha hoje é o pneu, que serve para toda a malha rodoviária criada no mundo, fazendo com que sua reciclagem seja não só benéfica ao meio ambiente, mas também para a indústria que os produz.",
+            "reciclaveis":["Todo tipo de borracha"],
+            "nao_reciclaveis":["Borracha com material diferente nela, como o aço nos pneus (pode ser retirado)"],
+            "tempo_degradacao": "Cerca de 600 anos"
         },
         {
             "material": "oleo",
-            "resumo":"",
-            "reciclaveis":[""],
-            "nao_reciclaveis":[""],
-            "tempo_degradacao": ""
+            "resumo":"O óleo de cozinha é um material muito comum em casa e descartá-lo de maneira incorreta é danoso ao sistema de coleta de lixo e também de água e esgoto do município. Como sua coleta é quase que obrigatória para melhorar os sistemas disponíveis na cidade e sua coleta é quase inexistente muitas pessoas aproveitam a demanda para adquirir o óleo usado (que pode ser usado para fazer vários produtos de limpeza) de graça, lucrando ao vender os produtos que foram feitos com o óleo gratuito (muitos ainda oferecem descontos no produto caso a contribuição com o óleo seja significativa). O óleo pode ser usado para fazer ração para pets, biodiesel, resina para tintas e glicerina. Como dito acima, sua coleta é um pouco difícil, já que poucos municípios têm pontos de coleta, mas muitos bairros realizam a coleta através de pessoas que produzem produtos de limpeza. ",
+            "reciclaveis":["Oleo de cozinha (existem outros reciclaveis, mas aqui tratamos somente desse)"],
+            "nao_reciclaveis":["Quase todos os tipos de óleo SÃO RECICLAVEIS"],
+            "tempo_degradacao": "Não se aplica"
         },
         {
             "material": "eletronico",
-            "resumo":"",
-            "reciclaveis":[""],
-            "nao_reciclaveis":[""],
-            "tempo_degradacao": ""
+            "resumo":"O e-lixo (ou e-waste em inglês) é o produto do descarte de produtos eletrônicos que não são mais úteis. Podendo ser composto por diversos elementos, muitos deles podem ser tóxicos, como o arsênio e o mercúrio é um lixo que deve ser tratado com cuidado. Pode ser usado para fabricar o componente novamente ou até mesmo ser usado em outras indústrias. Outro meio pode ser o reuso, que pega componentes do eletrônico (como transistores, diodos, circuitos integrados) que ainda estão bons e os recoloca em produtos novos, que podem ser usados normalmente. Esse reuso é extremamente barato e pode ser muito lucrativo a quem realiza esse procedimento, já que economiza na matéria-prima e nos processos de produção, porém a partir do momento em que se torna obsoleto deve ser descartado corretamente (em local apropriado, garantido que não irá contaminar o solo) ou então ser reciclado. ",
+            "reciclaveis":["Praticamente todos os elementos dos eletronicos"],
+            "nao_reciclaveis":["Alguns plásticos e metais que o compõe"],
+            "tempo_degradacao": "Depende muito do eletronico"
         }
     ]
 }
