@@ -1,10 +1,10 @@
 #cria borda superior com uma linha abaixo
-def default_superior():
+def superior():
     print('┌' + '─' * 100 + '┐')
     print('│' + ' ' * (100) + '│')
 
 #cria borda inferior com uma linha acima
-def default_inferior():
+def inferior():
     print('│' + ' ' * (100) + '│')
     print('└' + '─' * 100 + '┘')
 
