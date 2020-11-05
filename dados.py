@@ -17,6 +17,5 @@ def reciclaveis(data, produto):
             imprime.texto('NÃO PODEMOS RECICLAR:')
             for i in p['nao_reciclaveis']:
                 imprime.texto('✘  ' + i)
-            moldura.inferior()
-            print('')
+            moldura.inferiorDuplo()
 #fim_reciclaveis

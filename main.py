@@ -7,4 +7,36 @@ with open('data/dados_reciclaveis.json', encoding="utf8") as f:
 
 imprime.titulo()
 imprime.entrada()
-imprime.menu()
+
+#menu (escolhas do menu)
+escolha = 50
+while (int(escolha) != 0):
+    imprime.menu()
+    escolha = input('Digite a opção desejada: ')
+    if (int(escolha) == 1):
+        dados.reciclaveis(dados_reciclaveis, 'metal')
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 2):
+        dados.reciclaveis(dados_reciclaveis, 'plastico')
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 3):
+        dados.reciclaveis(dados_reciclaveis, 'papel')
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 4):
+        dados.reciclaveis(dados_reciclaveis, 'vidro')
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 5):
+        dados.reciclaveis(dados_reciclaveis, 'isopor')
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 6):
+        dados.reciclaveis(dados_reciclaveis, 'madeira')
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 7):
+        dados.reciclaveis(dados_reciclaveis, 'borracha')
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 8):
+        dados.reciclaveis(dados_reciclaveis, 'oleo')
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 9):
+        dados.reciclaveis(dados_reciclaveis, 'eletronico')
+        escolha = imprime.opcao1()

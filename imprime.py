@@ -77,3 +77,11 @@ def menu():
     texto('')
     frase('    0 - Sair do programa')
     moldura.inferior()
+
+def opcao1():
+    moldura.superiorDuplo()
+    frase('Opções:')
+    frase('0 - Sair do programa             1 - Voltar para o menu')
+    moldura.inferior
+    escolha = input('Digite sua opção: ')
+    return escolha
