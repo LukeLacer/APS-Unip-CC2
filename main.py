@@ -40,3 +40,18 @@ while (int(escolha) != 0):
     elif (int(escolha) == 9):
         dados.reciclaveis(dados_reciclaveis, 'eletronico')
         escolha = imprime.opcao1()
+    elif (int(escolha) == 11):
+        #ponto de coleta mais próximo
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 12):
+        #raio de coleta
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 13):
+        #ver todos os pontos
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 14):
+        #adicionar ponto de coleta
+        escolha = imprime.opcao1()
+    elif (int(escolha) == 15):
+        #adicionar ponto de coleta em massa
+        escolha = imprime.opcao1()

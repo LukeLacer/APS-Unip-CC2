@@ -52,7 +52,6 @@ def entrada():
     texto('N578GC0 - MATHEUS QUEIROZ OLIVEIRA')
     moldura.inferior()
 
-
 def menu():
     moldura.superior()
     texto('MENU')
@@ -70,9 +69,9 @@ def menu():
     frase('    8 - Óleo de cozinha')
     frase('    9 - Lixo Eletrônico')
     texto('>> Dados dos pontos de coleta')
-    frase('   11 - Ver ponto de coleta mais próximo por material que coleta')
-    frase('   12 - Ver pontos de coleta num raio por material que coleta')
-    frase('   13 - Ver todos os pontos de coleta por material que coleta')
+    frase('   11 - Ver ponto de coleta mais próximo por material de coleta')
+    frase('   12 - Ver pontos de coleta num raio por material de coleta')
+    frase('   13 - Ver todos os pontos de coleta por material de coleta')
     frase('   14 - Adicionar ponto de coleta')
     frase('   15 - Adicionar pontos de coleta em massa')
     texto('')
@@ -83,6 +82,52 @@ def opcao1():
     moldura.superiorDuplo()
     frase('Opções:')
     frase('0 - Sair do programa             1 - Voltar para o menu')
-    moldura.inferior
+    moldura.inferior()
     escolha = input('Digite sua opção: ')
+    return escolha
+
+def escolhematerial():
+
+    moldura.superior()
+    texto('Digite os materiais reciclaveis que deseja pesquisar digitando os numeros que quer separados por uma virgula.')
+    texto('Exemplo com metal, papel e madeira: Digite "1,3,6"')
+    frase(' 1 - Metal')
+    frase(' 2 - Plástico')
+    frase(' 3 - Papel')
+    frase(' 4 - Vidro')
+    frase(' 5 - Isopor')
+    frase(' 6 - Madeira')
+    frase(' 7 - Borracha')
+    frase(' 8 - Óleo de cozinha')
+    frase(' 9 - Lixo Eletrônico')
+    frase('10 - Todos os tipos de materiais')
+    moldura.inferior()
+    resposta = input('Digite o que deseja: ')
+
+    #pega a string resposta e divide em uma lista cortando as "," e criando um elemento para cada divisão
+    escolha = resposta.split(',')
+
+    #para cada numero digitado substitui ele pelo material desejado
+    for i in range(len(escolha)):
+        if int(escolha[i]) == 1:
+            escolha[i] = 'metal'
+        elif int(escolha[i]) == 2:
+            escolha[i] = 'plastico'
+        elif int(escolha[i]) == 3:
+            escolha[i] = 'papel'
+        elif int(escolha[i]) == 4:
+            escolha[i] = 'vidro'
+        elif int(escolha[i]) == 5:
+            escolha[i] = 'isopor'
+        elif int(escolha[i]) == 6:
+            escolha[i] = 'madeira'
+        elif int(escolha[i]) == 7:
+            escolha[i] = 'borracha'
+        elif int(escolha[i]) == 8:
+            escolha[i] = 'oleo'
+        elif int(escolha[i]) == 9:
+            escolha[i] = 'eletronico'
+        elif int(escolha[i]) ==10:
+            escolha[i] = 'tudo'
+
     return escolha

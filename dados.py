@@ -1,4 +1,9 @@
-import imprime, moldura
+import json #modulo que gerencia o json
+import moldura, imprime
+
+#pega o json e joga no dicionario dados_reciclaveis
+with open('data/pontos_coleta.json', encoding="utf8") as f:
+    pontos = json.load(f)
 
 #percorre o dicionario imprimindo somente os dados do produto indicado
 def reciclaveis(data, produto):
@@ -18,4 +23,6 @@ def reciclaveis(data, produto):
             for i in p['nao_reciclaveis']:
                 imprime.texto('✘  ' + i)
             moldura.inferiorDuplo()
-#fim_reciclaveis
+
+def reciclaveis(coletas, materiais):
+    for p in coletas['pontos']:
