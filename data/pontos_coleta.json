@@ -3,98 +3,82 @@
         {
         "nome": "Eco Ponto - Ponto Verde - Barão Geraldo",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.817260,
-        "longitude":-47.100537
+	    "coordenadas": [-22.817260,-47.100537]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Estação Cultura",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.909534,
-        "longitude":-47.067641
+	    "coordenadas": [-22.909534,-47.067641]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Jardim Pacaembu",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.904483,
-        "longitude":-47.105464
+	    "coordenadas": [-22.904483,-47.105464]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Jardim Eulina",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.891792,
-        "longitude":-47.101016
+	    "coordenadas": [-22.891792,-47.101016]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Jardim Paranapanema",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.915823,
-        "longitude":-47.037483
+	    "coordenadas": [-22.915823,-47.037483]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Parque Itália",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.915330,
-        "longitude":-47.071196
+	    "coordenadas": [-22.915330,-47.071196]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Parque Itajaí",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.961431,
-        "longitude":-47.192362
+	    "coordenadas": [-22.961431,-47.192362]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Parque São Jorge",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.896053,
-        "longitude":-47.157392
+	    "coordenadas": [-22.896053,-47.157392]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Jardim São Gabriel",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.942011,
-        "longitude":-47.030471
+	    "coordenadas": [-22.942011,-47.030471]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Parque Via Norte",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.885643,
-        "longitude":-47.128126
+	    "coordenadas": [-22.885643,-47.128126]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Vida Nova",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.977196,
-        "longitude":-47.177901
+	    "coordenadas": [-22.977196,-47.177901]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Vila Campos Sales",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.948468,
-        "longitude":-47.057817
+	    "coordenadas": [-22.948468,-47.057817]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Vila União",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.935923,
-        "longitude":-47.118030
+	    "coordenadas":[-22.935923,-47.118030]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Carlos Grimaldi",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-22.855658,
-        "longitude":-47.067699
+	    "coordenadas": [-22.855658,-47.067699]
         },
         {
         "nome": "Eco Ponto - Ponto Verde - Jardim Marisa",
         "aceita": ["papel", "plastico", "vidro", "metal", "madeira", "borracha", "isopor"],
-	    "latitude":-23.035566,
-        "longitude":-47.110007
+	    "coordenadas": [-23.035566,-47.110007]
         },
         {
         "nome": "Duque reciclagem de óleos vegetais",
         "aceita": ["oleo"],
-	    "latitude":-22.820863,
-        "longitude":-47.177281
+	    "coordenadas": [-22.820863,-47.177281]
         }
     ]
 }   

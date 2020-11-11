@@ -5,6 +5,10 @@ import dados, moldura, imprime
 with open('data/dados_reciclaveis.json', encoding="utf8") as f:
     dados_reciclaveis = json.load(f)
 
+#pega o json e joga no dicionario pontos
+with open('data/pontos_coleta.json', encoding="utf8") as f:
+    pontos = json.load(f)
+
 imprime.titulo()
 imprime.entrada()
 
@@ -44,7 +48,7 @@ while (int(escolha) != 0):
         #ponto de coleta mais próximo
         escolha = imprime.opcao1()
     elif (int(escolha) == 12):
-        #raio de coleta
+        dados.pontosraio(pontos)
         escolha = imprime.opcao1()
     elif (int(escolha) == 13):
         #ver todos os pontos
