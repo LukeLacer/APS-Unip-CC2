@@ -97,6 +97,7 @@ def maisproximo(coletas):
 
 def vertodos(coletas):
 
+
     escolhidos = imprime.escolhematerial()
 
     moldura.superior()
@@ -113,3 +114,24 @@ def vertodos(coletas):
                 imprime.frase('')
                 imprime.frase(' Latitude: ' + str(m['coordenadas'][0]))
                 imprime.frase(' Longitude: ' + str(m['coordenadas'][1]))
+
+def adicionarponto(nome, reclicaveis, coords, pontos):
+    print(type(pontos))
+    data = pontos
+    data['pontos'].append({
+        'nome' : nome,
+        'coordenadas' : str(coords)
+    })
+    for i in reciclaveis:
+        data['pontos'].aceita.append(i)
+    with open('data/pontos_coleta.json', 'w', encoding="utf-8") as f:
+        json.dump(pontos, f, ensure_ascii=False)
+
+#parte temporaria para testes
+#pega dados do json
+with open('data/pontos_coleta.json', encoding='utf-8') as x:
+    teste = json.load(x)
+
+#tenta adicionar dados no json com a função acima.=
+adicionarponto('Testando', ["metal","plastico"], [1,2], teste)
+#parte temporaria para testes
