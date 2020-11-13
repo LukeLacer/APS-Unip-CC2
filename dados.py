@@ -97,7 +97,6 @@ def maisproximo(coletas):
 
 def vertodos(coletas):
 
-
     escolhidos = imprime.escolhematerial()
 
     moldura.superior()
@@ -115,23 +114,65 @@ def vertodos(coletas):
                 imprime.frase(' Latitude: ' + str(m['coordenadas'][0]))
                 imprime.frase(' Longitude: ' + str(m['coordenadas'][1]))
 
-def adicionarponto(nome, reclicaveis, coords, pontos):
-    print(type(pontos))
+def adicionarponto(pontos):
+
+    coords = []
+    moldura.superior()
+    imprime.frase('ADICIONAR PONTO DE COLETA')
+    imprime.frase('')
+    imprime.frase('ATENÇÃO! Não utilize acentos!')
+    moldura.inferior()
+    nome = str(input('Digite o nome do local: '))
+    print('')
+    print('Digite como abaixo, sem espaços e somente os reciclaveis que o local aceita.')
+    print('metal,plastico,vidro,papel,oleo,eletronico,madeira,borracha,isopor')
+    rec = str(input('Digite os reciclaveis que o local aceita: '))
+    reciclaveis = rec.split(',')
+    print('')
+    coords.append(float(input('Digite a latitude: ')))
+    coords.append(float(input('Digite a longitude: ')))
+    print('')
     data = pontos
     data['pontos'].append({
         'nome' : nome,
-        'coordenadas' : str(coords)
+        'aceita' : reciclaveis,
+        'coordenadas' : coords
     })
-    for i in reciclaveis:
-        data['pontos'].aceita.append(i)
-    with open('data/pontos_coleta.json', 'w', encoding="utf-8") as f:
-        json.dump(pontos, f, ensure_ascii=False)
+    with open('data/pontos_coleta.json', 'w') as outfile:
+        json.dump(data, outfile, indent=4)
 
-#parte temporaria para testes
-#pega dados do json
-with open('data/pontos_coleta.json', encoding='utf-8') as x:
-    teste = json.load(x)
+    moldura.superior()
+    imprime.frase('PONTO ADICIONADO!')
+    moldura.inferior()
 
-#tenta adicionar dados no json com a função acima.=
-adicionarponto('Testando', ["metal","plastico"], [1,2], teste)
-#parte temporaria para testes
+def adicionarpontomassa(pontos):
+    data = pontos
+    qtde = 0
+    moldura.superior()
+    imprime.frase('ADICIONAR PONTOS DE COLETA EM MASSA')
+    imprime.frase('')
+    imprime.frase('ATENÇÃO! Não utilize acentos!')
+    imprime.frase('Faça como no exemplo e seus deados serão todos adicionados!')
+    imprime.frase('nome do local;metal,papel;-58.2345,-47.4839/<nome do local>;metal,plastico;-58.2345,-47.4839')
+    imprime.frase("Preste atenção que se utiliza ';' entre os dados e '/' entre pontos diferentes")
+    imprime.frase('Utilize espaços SOMENTE no nome do local e use o padrão correto para digitar as coordenadas')
+    moldura.inferior()
+    lista = input('Digite a seguir a sua lista de pontos: ')
+    dados = lista.split('/')
+    for i in dados:
+        ponto = i.split(';')
+        ponto[1] = ponto[1].split(',')
+        ponto[2] = ponto[2].split(',')
+        data['pontos'].append({
+            'nome' : ponto[0],
+            'aceita' : ponto[1],
+            'coordenadas' : ponto[2]
+        })
+        qtde += 1
+
+    with open('data/pontos_coleta.json', 'w') as outfile:
+        json.dump(data, outfile, indent=4)
+
+    moldura.superior()
+    imprime.frase(str(qtde) + ' PONTOS ADICIONADO!')
+    moldura.inferior()

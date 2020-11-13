@@ -54,8 +54,8 @@ while (int(escolha) != 0):
         dados.vertodos(pontos)
         escolha = imprime.opcao1()
     elif (int(escolha) == 14):
-        #adicionar ponto de coleta-------------------------
+        dados.adicionarponto(pontos)
         escolha = imprime.opcao1()
     elif (int(escolha) == 15):
-        #adicionar pontos de coleta em massa----------------
+        dados.adicionarpontomassa(pontos)
         escolha = imprime.opcao1()
